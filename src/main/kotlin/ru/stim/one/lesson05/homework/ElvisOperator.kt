@@ -1,4 +1,4 @@
-package ru.stim.one.lesson_5.homework
+package ru.stim.one.lesson05.homework
 
 fun main() {
 

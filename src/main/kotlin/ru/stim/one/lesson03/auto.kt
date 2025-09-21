@@ -1,4 +1,4 @@
-package ru.stim.one.lesson_3
+package ru.stim.one.lesson03
 
 const val wheels = 4
 

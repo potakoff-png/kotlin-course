@@ -1,4 +1,4 @@
-package ru.stim.one.lesson_3.homework
+package ru.stim.one.lesson03.homework
 
 //1. Название нероприятия
 val eventname: String = "Hackathon"

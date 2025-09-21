@@ -1,4 +1,4 @@
-package ru.stim.one.lesson_4.homework
+package ru.stim.one.lesson04.homework
 
 val v1: Byte = 42
 val v2: Long = 98765432123456789L

@@ -1,4 +1,4 @@
-package ru.stim.one.lesson_5
+package ru.stim.one.lesson05
 
 fun main() {
 

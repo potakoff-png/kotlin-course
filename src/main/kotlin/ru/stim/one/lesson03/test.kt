@@ -1,4 +1,4 @@
-package ru.stim.one.lesson_3
+package ru.stim.one.lesson03
 
 val name: String = "John"
 var age: Int = 20
