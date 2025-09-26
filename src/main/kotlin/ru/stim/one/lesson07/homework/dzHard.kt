@@ -19,14 +19,21 @@ fun main(){
         return sum
     }
 
-    // Пример использования:
-    fun main() {
-        val result = sumUpTo(5)
-        println("Сумма чисел от 1 до 5: $result")  // Вывод: Сумма чисел от 1 до 5: 15
-    }
     //Напишите функцию, которая вычисляет факториал числа 'arg' с использованием цикла while.
+    fun factorial(arg: Int){
+        var counter = 1
+        var factorialValue = 1
+        while (counter++ <= arg) {}
+    }
 
     //Напишите функцию, которая находит сумму всех четных чисел от 2 до 'arg', используя цикл while.
+//    fun sum0dd(arg:Int) {
+//        var counter = 1
+//        var sum = 0
+//        while (counter++ < arg) {
+//            if (counter % 2 == 0)
+//        }
+//    }
 
     //Напишите функцию, которая используя вложенные циклы while, выведет заполненный прямоугольник размером 5x3 из символов *.
 
