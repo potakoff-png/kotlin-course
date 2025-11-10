@@ -51,12 +51,12 @@ fun main() {
         println(child.getAll())
 
         // 5. Изменить protectedField
-        child.setProtectedField("Я изменился через сеттер")
+        //child.setProtectedField("Я изменился через сеттер")
         println("\n--- После изменения protectedField ---")
         println(child.getAll())
 
         // 6. Изменить privateField
-        child.setPrivateField("Я тоже изменился!")
+        //child.setPrivateField("Я тоже изменился!")
         println("\n--- После изменения privateField ---")
         println(child.getAll())
 

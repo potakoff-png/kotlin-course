@@ -89,15 +89,15 @@ class ChildrenClass(
     // Вызов идёт через printText(), который находится в BaseClass и вызывает свой private метод.
 
     // Добавим открытый сеттер для protectedField, чтобы можно было изменить его из main()
-    fun setProtectedField(value: String) {
-        protectedField = value
-    }
+    //fun setProtectedField(value: String) {
+    //    protectedField = value
+    //}
 
     // Добавим функцию для изменения privateField через косвенный способ
     // (прямого доступа нет, но можно добавить метод в ChildrenClass)
-    fun setPrivateField(value: String) {
+    //fun setPrivateField(value: String) {
         // privateField доступен здесь, потому что мы в наследнике BaseClass
         // и private члены родителя видны в наследнике (но не за его пределами)
-        privateField = value
-    }
+    //    privateField = value
+    //}
 }
