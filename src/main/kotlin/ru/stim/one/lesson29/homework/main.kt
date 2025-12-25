@@ -1,7 +1,7 @@
 package ru.stim.one.lesson29.homework
 
-import org.gradle.internal.impldep.com.google.gson.Gson
-import org.gradle.internal.impldep.com.google.gson.GsonBuilder
+//import org.gradle.internal.impldep.com.google.gson.Gson
+//import org.gradle.internal.impldep.com.google.gson.GsonBuilder
 import java.io.File
 
 //Задание 2
@@ -86,25 +86,26 @@ val cto = Employee(
 
 //Задание 3
 
-fun ex3() {
-    val gson = GsonBuilder().setPrettyPrinting().create()
-    gson.toJson(cto).also {
-        File("structure.json").writeText(it)
-    }
-}
+//fun ex3() {
+//    val gson = GsonBuilder().setPrettyPrinting().create()
+//    gson.toJson(cto).also {
+//        File("structure.json").writeText(it)
+//    }
+//}
 
 //Задание 4
 
-fun ex4() {
-    val gson = Gson()
-    val json = File("structure.json").readText()
-    val cto = gson.fromJson(json, Employee::class.java)
-    println(cto)
-    // Задание 5
-    ex5(cto).groupBy { it.position }
-        .map { group -> "${group.key}: ${group.value.joinToString { it.name }}" }
-        .forEach { println(it) }
-}
+//fun ex4() {
+//    val gson = Gson()
+//    val json = File("structure.json").readText()
+//    val cto = gson.fromJson(json, Employee::class.java)
+//    println(cto)
+
+// Задание 5
+//    ex5(cto).groupBy { it.position }
+//        .map { group -> "${group.key}: ${group.value.joinToString { it.name }}" }
+//        .forEach { println(it) }
+//}
 
 //Задание 5
 
